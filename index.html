@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="portfolio site for harsh kuddu.">
+    <title>harsh kuddu</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" title="style" />
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="./images/transparenticon.png"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js" defer></script>
+  </head>
+  <body>
+    <div id="first">
+      <div class="center">
+        <p id="welcome">welcome.</p>
+        <p id="name" class="reveal">my name is harsh kuddu.</p>
+          <p id="desc" class="reveal"></p>
+      
+      </div>
+     
+      
+      <div class="lower" id="lowerfirst">
+        <p id="scrollmessage">scroll.</p>
+        <img
+          id="downarrows"
+          class="click"
+          src="./images/downarrows.png"
+          alt="downarrows"
+          onclick="scrollfirst()"
+        />
+      </div>
+     
+    </div>
+    <div id="second">
+      <div class="nametextcenter">
+        <p>My name is Harsh and I am currently pursuing a Computer Science degree at York University. I love playing sports and going for evening walks. One thing about me is I can enter flow state in a couple of minutes.</p>
+      
+        <p>I grew up in Brampton for all my childhood, everyone was very welcoming and the environment was competitive. The multicultural environment and emphasis on education nurtured an open-minded and ambitious mindset within me. Interacting with a welcoming community fostered empathy, cooperation, and a sense of belonging, shaping the person I am today.</p>
+    
+        <p>I decided to attend York University because the commute is good for me. I have decided to choose Computer Science because I have always been curious about and passionate about technology. I have always been drawn to the world of coding and its endless possibilities. They do say curiosity kills, but I don't mind that…</p>
+    
+        <p >My inspiration is a man named “Field”. This teacher writes in a poetic way that resonates with me. His teachings about introspection, determination, openness, and self-reflection have had a ripple effect on me and many others in a small community.</p>
+        <img
+         src="./images/medal.png"
+        />
+        <p>I have chosen this artifact because it represents the slow and unyielding process of victory in life. It symbolizes the culmination of persistent effort, dedication, and the ability to overcome challenges over time. I believe this signifies my appreciation for the journey and the growth that comes along with it.</p>
+     </div>
+      <div class="lower" id="lowersecond">
+        <p id="scrollmessage">scroll.</p>
+        <img
+          id="downarrows"
+          class="click"
+          src="./images/downarrows.png"
+          alt="downarrows"
+          onclick="scrollsecond()"
+        />
+      </div>
+      <div class="corner">
+        <a class="button click" onclick="scrollfourth()">skip.</a>
+      </div>
+    </div>
+    <div id="third">
+      <div id="languages" class="center">
+        <h2 id="langs" class="reveal">languages:</h2>
+        <ul class="reveal">
+          <li>java</li>
+          <li>javascript</li>
+          <li>typescript</li>
+          <li>python</li>
+          <li>C</li>
+          <li>html</li>
+          <li>css</li>
+        </ul>
+      </div>
+      <div id="frameworks" class="center">
+        <h2 class="reveal">other tools:</h2>
+        <ul class="reveal">
+          <li>react.js</li>
+          <li>angular</li>
+          <li>selenium</li>
+          <li>express</li>
+          <li>j-unit</li>
+        </ul>
+      </div>
+      <div class="lower" id="lowerthird">
+        <p id="scrollmessage">scroll.</p>
+        <img
+          id="downarrows"
+          class="click"
+          src="./images/downarrows.png"
+          onclick="scrollthird()"
+        />
+      </div>
+    </div>
+    <div id="fourth">
+      <div id="projects-wrapper" class="center">
+        <div
+          id="asl"
+          class="project reveal click"
+        >
+          <h2 id="port-header">chess</h2>
+          <p id="port-desc">
+            a chess app made with react and mongoDB
+          </p>
+        </div>
+        <div
+          id="java"
+          class="project reveal click"
+        >
+          <h2 id="port-header">blog</h2>
+          <p id="port-desc">
+            a blog site made with bootstrap and mongoDB
+          </p>
+        </div>
+        <div
+          id="monitor"
+          class="project reveal click"
+        >
+          <h2 id="port-header">lol summoner-scrapper</h2>
+          <p id="port-desc">
+            an app that retreives players stats in the game leauge of legends
+          </p>
+        </div>
+        <div
+          id="port"
+          class="project reveal click"
+        >
+          <h2 id="port-header">kuddu</h2>
+          <p id="port-desc">
+            my portfolio website made with javascript, html, and css.
+          </p>
+        </div>
+        <div
+          id="yorku"
+          class="project reveal click"
+        >
+          <h2 id="port-header">connecthlete</h2>
+          <p id="port-desc">
+            an android app to find people that want to play the same sport
+          </p>
+        </div>
+        <div
+          id="nummem"
+          class="project reveal click"
+        >
+          <h2 id="port-header">galley</h2>
+          <p id="port-desc">
+            a small scale of galley, responsible for assamble and building trolleys for airlines
+          </p>
+        </div>
+      </div>
+      <div class="lower" id="lowerfourth">
+        <p id="scrollmessage">scroll.</p>
+        <img
+          id="downarrows"
+          src="./images/downarrows.png"
+          alt="downarrows"
+          onclick="scrollfourth()"
+        />
+      </div>
+    </div>
+    <div id="fifth">
+      <div id="summary-wrapper" class="center">
+        <div id="botname">
+          harsh
+          <br />
+          kuddu
+        </div>
+        <div class="vertline"></div>
+        <div id="clock"></div>
+        <div id="boxes-wrapper">
+          <div id="langbox" class="box click" onclick="scrollsecond()">
+            languages
+          </div>
+          <div id="projectbox" class="box click" onclick="scrollthird()">
+            projects
+          </div>
+        </div>
+        <div id="calendar"></div>
+        <div id="socials-wrapper">
+          <img
+            id="instagram"
+            class="click"
+            src="images/instagram.png"
+            onclick="window.open('https://www.instagram.com/hasbulla.hushetskiy/', '_blank').focus();"
+          />
+          <br />
+          <img
+            id="github"
+            class="click"
+            src="images/github.png"
+            onclick="window.open('https://github.com/', '_blank').focus();"
+          />
+          <br />
+          <img
+            id="linkedin"
+            class="click"
+            src="images/linkedin.png"
+            onclick="window.open('https://www.linkedin.com/in/harshkuddu', '_blank').focus();"
+          />
+        </div>
+      </div>
+    </div>
+ 
+  </body>
+</html>
