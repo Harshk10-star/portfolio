@@ -51,6 +51,11 @@ body {
   top: 50%;
 }
 
+.second-center {
+  left: 50%;
+  top: 50%;
+  transform: translateY(170%);
+}
 .nametextcenter {
   position: absolute;
   width: 80%;
@@ -59,6 +64,9 @@ body {
   top: 50%;
 }
 
+#experiencebox {
+  display: block;
+}
 .desctextcenter {
   position: absolute;
   width: 80%;
@@ -143,54 +151,64 @@ body {
   position: absolute;
   margin-top: 100vh;
   scroll-snap-align: start;
-  font-weight: bold;
   font-size: 20px;
 
 }
 /* Styling for the first paragraph in #second section */
-#second p:first-child {
-  
+#third p:first-child {
+  font-weight: bold;
+  font-size: 20px;
   
   margin-bottom: 15px;
 }
 
 /* Styling for the second paragraph in #second section */
-#second p:nth-child(2) {
+#third p:nth-child(2) {
 
   line-height: 1.6;
-
+  font-weight: bold;
+  font-size: 20px;
   margin-bottom: 15px;
 }
 
 /* Styling for the third paragraph in #second section */
-#second p:nth-child(3) {
+#third p:nth-child(3) {
   line-height: 1.6;
-  
+  font-weight: bold;
+  font-size: 20px;
   margin-bottom: 20px;
 }
 
 /* Styling for the fourth paragraph in #second section */
-#second p:nth-child(4) {
+#third p:nth-child(4) {
   line-height: 1.6;
-  
+  font-weight: bold;
+  font-size: 20px;
   margin-bottom: 15px;
 }
 
 /* Styling for the fifth paragraph in #second section */
-#second p:nth-child(5) {
+#third p:nth-child(5) {
   line-height: 1.6;
-
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+#third p:nth-child(6) {
+  line-height: 1.6;
+  font-weight: bold;
+  font-size: 20px;
   margin-bottom: 15px;
 }
 
 /* Additional styles for the .nametextcenter div */
-#second .nametextcenter {
+#third.nametextcenter {
   text-align: center;
   margin-bottom: 20px;
 }
 
 /* Additional styles for the .desctextcenter div */
-#second .desctextcenter {
+#third.desctextcenter {
   text-align: center;
   margin-bottom: 30px;
 }
@@ -202,6 +220,13 @@ body {
   position: absolute;
   margin-top: 200vh;
   scroll-snap-align: start;
+  
+}
+
+#lowerthird {
+  margin-top: 40px;
+  color: #888;
+  font-size: 4px;
 }
 
 #fourth {
@@ -224,14 +249,38 @@ body {
   scroll-snap-align: start;
 }
 
-
+#sixth {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  margin-top: 500vh;
+  scroll-snap-align: start;
+}
 
 #name {
   font-size: 2vw;
 }
 
+
 .reveal {
   opacity: 0;
+}
+
+.cen {
+  justify-content: center;
+}
+
+#evertz {
+  width: 60%;
+  height: 15%;
+  margin: 20px;
+  justify-content: center;
+}
+#evertz-border {
+  border: white 1px solid;
+
 }
 
 .reveal.nametextanim,
@@ -482,10 +531,11 @@ ul.frameanim > li {
 #socials-wrapper {
   line-height: 3;
   width: 5%;
-  margin-left: 45vw;
+  margin-left: 55vw;
   margin-top: 12vh;
   float: left;
   position: absolute;
+  
 }
 
 .corner {
