@@ -37,7 +37,37 @@
      
     </div>
     <div id="second">
+      <div class="center">
+        <h1>Experiences</h1>
+        <div id="evertz-border">
+        <div>
+          <p>Evertz MicroSystems Ltd.</p>
+          <img
+          id="evertz"
+          src="images/evertz.png"
+          />
+        </div>
+        <h2>software devloper intern</h2>
+        <p>may - dec 2023</p>
+        </div>
+          </div>
+        <div>
+        
+      </div>
+      <div class="lower" id="lowersecond">
+        <p id="scrollmessage">scroll.</p>
+        <img
+          id="downarrows"
+          class="click"
+          src="./images/downarrows.png"
+          alt="downarrows"
+          onclick="scrollsecond()"
+        />
+      </div>
+    </div>
+    <div id="third">
       <div class="nametextcenter">
+        
         <p>My name is Harsh and I am currently pursuing a Computer Science degree at York University. I love playing sports and going for evening walks. One thing about me is I can enter flow state in a couple of minutes.</p>
       
         <p>I grew up in Brampton for all my childhood, everyone was very welcoming and the environment was competitive. The multicultural environment and emphasis on education nurtured an open-minded and ambitious mindset within me. Interacting with a welcoming community fostered empathy, cooperation, and a sense of belonging, shaping the person I am today.</p>
@@ -50,21 +80,20 @@
         />
         <p>I have chosen this artifact because it represents the slow and unyielding process of victory in life. It symbolizes the culmination of persistent effort, dedication, and the ability to overcome challenges over time. I believe this signifies my appreciation for the journey and the growth that comes along with it.</p>
      </div>
-      <div class="lower" id="lowersecond">
+      <div class="lower" id="lowerthird">
         <p id="scrollmessage">scroll.</p>
         <img
           id="downarrows"
           class="click"
           src="./images/downarrows.png"
-          alt="downarrows"
-          onclick="scrollsecond()"
+          onclick="scrollthird()"
         />
       </div>
       <div class="corner">
-        <a class="button click" onclick="scrollfourth()">skip.</a>
+        <a class="button click" onclick="scrollfifth()">skip.</a>
       </div>
     </div>
-    <div id="third">
+    <div id="fourth">
       <div id="languages" class="center">
         <h2 id="langs" class="reveal">languages:</h2>
         <ul class="reveal">
@@ -83,21 +112,22 @@
           <li>react.js</li>
           <li>angular</li>
           <li>selenium</li>
-          <li>express</li>
-          <li>j-unit</li>
+          <li>express.js</li>
+          <li>rxjs</li>
+          <li>ngrx</li>
         </ul>
       </div>
-      <div class="lower" id="lowerthird">
+      <div class="lower" id="lowerfourth">
         <p id="scrollmessage">scroll.</p>
         <img
           id="downarrows"
-          class="click"
           src="./images/downarrows.png"
-          onclick="scrollthird()"
+          alt="downarrows"
+          onclick="scrollfourth()"
         />
       </div>
     </div>
-    <div id="fourth">
+    <div id="fifth">
       <div id="projects-wrapper" class="center">
         <div
           id="asl"
@@ -154,17 +184,18 @@
           </p>
         </div>
       </div>
-      <div class="lower" id="lowerfourth">
+      <div class="lower" id="lowerfirst">
         <p id="scrollmessage">scroll.</p>
         <img
           id="downarrows"
+          class="click"
           src="./images/downarrows.png"
           alt="downarrows"
-          onclick="scrollfourth()"
+          onclick="scrollfifth()"
         />
       </div>
     </div>
-    <div id="fifth">
+    <div id="sixth">
       <div id="summary-wrapper" class="center">
         <div id="botname">
           harsh
@@ -174,11 +205,14 @@
         <div class="vertline"></div>
         <div id="clock"></div>
         <div id="boxes-wrapper">
-          <div id="langbox" class="box click" onclick="scrollsecond()">
+          <div id="langbox" class="box click" onclick="scrollthird()">
             languages
           </div>
-          <div id="projectbox" class="box click" onclick="scrollthird()">
+          <div id="projectbox" class="box click" onclick="scrollfourth()">
             projects
+          </div>
+          <div id="experiencebox" class="box click" onclick="scrollfirst()">
+            experiences
           </div>
         </div>
         <div id="calendar"></div>
@@ -186,8 +220,8 @@
           <img
             id="instagram"
             class="click"
-            src="images/instagram.png"
-            onclick="window.open('https://www.instagram.com/hasbulla.hushetskiy/', '_blank').focus();"
+            src="images/resume.png"
+            onclick="window.open('./resume/harsh.pdf', '_blank').focus();"
           />
           <br />
           <img
@@ -206,6 +240,8 @@
         </div>
       </div>
     </div>
- 
   </body>
 </html>
+
+
+
