@@ -76,6 +76,25 @@ function scrollfifth() {
 }
 
 
+function scrollsixth() {
+  var element = document.getElementById("seventh");
+  element.scrollIntoView({
+    behavior: "smooth",
+    block: "end",
+    inline: "nearest",
+  });
+}
+
+function scrollseventh() {
+  var element = document.getElementById("eight");
+  element.scrollIntoView({
+    behavior: "smooth",
+    block: "end",
+    inline: "nearest",
+  });
+}
+
+
 function time() {
   var date = new Date();
   var hours = date.getHours();

@@ -146,7 +146,7 @@ body {
 #second {
   color: white;
   text-align: center;
-  height: 100vh;
+  height: 70vh;
   width: 100%;
   position: absolute;
   margin-top: 100vh;
@@ -215,10 +215,10 @@ body {
 #third {
   color: white;
   text-align: center;
-  height: 100vh;
+  height: 138vh;
   width: 100%;
   position: absolute;
-  margin-top: 200vh;
+  margin-top: 155vh;
   scroll-snap-align: start;
   
 }
@@ -232,20 +232,24 @@ body {
 #fourth {
   color: white;
   text-align: center;
-  height: 100vh;
+  height: 50vh;
   width: 100%;
   position: absolute;
   margin-top: 300vh;
   scroll-snap-align: start;
 }
 
+.pbetter{
+  font-weight: bold;
+  padding: 9px;
+}
 #fifth {
   color: white;
   text-align: center;
   height: 100vh;
   width: 100%;
   position: absolute;
-  margin-top: 400vh;
+  margin-top: 350vh;
   scroll-snap-align: start;
 }
 
@@ -255,10 +259,39 @@ body {
   height: 100vh;
   width: 100%;
   position: absolute;
-  margin-top: 500vh;
+  margin-top: 425vh;
   scroll-snap-align: start;
 }
 
+
+#seventh {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  position:absolute;
+  margin-top: 500vh; /* Adjust the margin-top value as needed */
+   /* Change the background color as desired */
+  scroll-snap-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#eight {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  position:absolute;
+  margin-top: 600vh; /* Adjust the margin-top value as needed */
+   /* Change the background color as desired */
+  scroll-snap-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 #name {
   font-size: 2vw;
 }
